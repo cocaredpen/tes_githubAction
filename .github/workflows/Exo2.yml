@@ -1,7 +1,7 @@
 name : Exo 2  CI
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "Exo_B" ]
     paths:
         - '**.yml'
         - '!tests/**'
