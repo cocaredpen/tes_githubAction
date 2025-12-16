@@ -1,0 +1,13 @@
+name : Exo 2  CI
+on:
+  pull_request:
+    branches: [ "main" ]
+    paths:
+        - '**.yml'
+        - '!tests/**'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: echo "Véfication des fichiers yaml"
