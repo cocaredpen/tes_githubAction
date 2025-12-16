@@ -1,0 +1,12 @@
+name : Exo 1 CI
+on:
+  push:
+    branches: [ "Exo_A" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo "C'est l'exo 1"
