@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run tests
-        run: echo "Véfication des fichiers yaml"
+        run: echo "Véfication des fichiers yaml c'est un test"
